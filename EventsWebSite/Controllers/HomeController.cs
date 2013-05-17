@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EventsWebSite.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -13,7 +14,16 @@ namespace EventsWebSite.Controllers
 
         public ActionResult Index()
         {
-            return View();
+            var eventsModel = new EventsModel();
+            eventsModel.Events = new Event[2];
+            for(var i = 0; i < 2; i++)
+            {
+                eventsModel.Events[i] = new Event();
+                eventsModel.Events[i].Text = "This is a test " + i;
+                eventsModel.Events[i].Id = i;
+                eventsModel.Events[i].InputType = 4;
+            }
+            return View(eventsModel);
         }
 
     }
