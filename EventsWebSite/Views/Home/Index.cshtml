@@ -1,15 +1,7 @@
-﻿@using EventWebSite.Utilities
-@model EventsWebSite.Models.EventsModel
-
-@{
+﻿@{
     ViewBag.Title = "Events Web Site";
 }
 
 <h2>Events Web Site</h2>
 
-<h3>Events Grid</h3>
-
-
-@Html.EventsGrid(Model.Events )
-
-@*@Html.ShowTestGrid()*@
+@Html.ActionLink("Events",  "Index", "Events" )

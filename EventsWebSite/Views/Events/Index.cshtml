@@ -1,0 +1,17 @@
+﻿@using EventWebSite.Utilities
+@model EventsWebSite.Models.EventsModel
+@{
+    ViewBag.Title = "Events";
+}
+
+<h2>Events</h2>
+
+<h3>Events Grid</h3>
+
+@Html.EventsGrid(Model.Events )
+
+This is a <a href="http://eventapi.apphb.com/api/event">link</a> to the Event Api.
+<br />
+<br />
+
+@Html.ActionLink("Home", "Index", "Home")
