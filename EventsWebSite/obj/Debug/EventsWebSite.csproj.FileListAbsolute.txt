@@ -22,6 +22,6 @@ H:\Matti's Document's\GitHub\EventsWebSite\EventsWebSite\bin\System.Web.Razor.xm
 H:\Matti's Document's\GitHub\EventsWebSite\EventsWebSite\bin\System.Web.WebPages.xml
 H:\Matti's Document's\GitHub\EventsWebSite\EventsWebSite\bin\System.Web.WebPages.Deployment.xml
 H:\Matti's Document's\GitHub\EventsWebSite\EventsWebSite\bin\System.Web.WebPages.Razor.xml
-H:\Matti's Document's\GitHub\EventsWebSite\EventsWebSite\obj\Debug\EventsWebSite.csprojResolveAssemblyReference.cache
 H:\Matti's Document's\GitHub\EventsWebSite\EventsWebSite\obj\Debug\EventsWebSite.dll
 H:\Matti's Document's\GitHub\EventsWebSite\EventsWebSite\obj\Debug\EventsWebSite.pdb
+H:\Matti's Document's\GitHub\EventsWebSite\EventsWebSite\obj\Debug\EventsWebSite.csprojResolveAssemblyReference.cache
